@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(230, 230, 250);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            background-image: url('shreejal.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 65%;
+            height: 80vmin;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 95px;
+            background-color: rgb(145, 145, 230);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(15, 4, 4);
+        }
+
+        nav ul li a:hover {
+            color: rgb(211, 211, 226);
+            font-size: 0.95rem;
+        }
+
+        main hr {
+            border: 0;
+            color: rgb(27, 99, 99);
+            height: 1.2px;
+            margin: 40px 80px;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+
+        .left {
+            font-size: 1.8rem;
+        }
+
+        .firstsection {
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+            margin: 3vw 0;
+        }
+
+        .firstsection div {
+            width: 35%;
+        }
+
+        .leftsection {
+            width: 30px;
+            font-size: 3rem;
+            text-align: left;
+            width: 100%;
+font-family: 'Poppins', sans-serif;
+
+        }
+
+        .leftsection {
+            font-size: 4rem;
+            color: white;
+            font-family:Cambria, Cochin, Georgia, Times, 'T   imes New Roman', serif;
+            margin: 80px;
+            padding: 30;
+            text-shadow: 2px 2px 4px rgba(7, 7, 7, 0.2);;
+        }
+
+        .firstsection div {
+            width: 36%;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondsection h1 {
+            font-size: 3rem;
+        }
+
+        .secondsection {
+            font-size: 1.8rem;
+            color: rgb(26, 5, 34);
+            padding-top: 30px;
+            background-color: rgba(244, 230, 244, 0.957);
+            text-shadow: 2px 2px 4px rgba(56, 5, 5, 0.2);
+
+
+        }
+
+        .purple {
+            color: rgb(3, 3, 15);
+        }
+
+        .text-green {
+            color: rgb(45, 22, 22);
+        }
+
+        #element {
+            color: rgb(173,216,230);
+        }
+
+        .thirdsection {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(145, 83, 83);
+
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left" > <b >Shreejal Bhattarai</b></div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="https://www.blogger.com/u/1/blog/posts/4127656993305075570">Blogs</a></li>
+                    <li><a href="About me.html">Introduction</a></li>
+                    <li><a href="contactme.htm">Connect</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection" style="width: 100%;" ><b><b >Hi, I am</b></b><span class="purple"><br></span><span id="element"></span></div>
+        </section>
+        
+                
+       
+        <section class="secondsection" style="padding: 123px;" >
+            <h1> About me </h1 ><br>Hii People,</h1><br>
+            <div> I am Shreejal Bhattarai. I am a High school graduate from Nepal and have been learning new things lately. I am interested in Applied physics, ML and AI. I plan eventually to study engineering, and research in my preferred sector.<br> Currently I am:<br>
+                <ul style="list-style-type: disc;">
+                    <li>Learning Coding in Matlab and python.</li>
+                    <li>Working in a non-profit organization as project manager.</li>
+                    <li>Working on a physics research paper.</li>
+                </ul>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Shreejal Bhattarai', ' a Future engineer', ' a Physics Enthusiast', ' a Cricket lover', 'an adventurer'],
+            typeSpeed: 50
+        });
+    </script>
+    <section class="thirdsection">
+        <div> gmail: [First name][last name] 13 @ gmail.com <br> © All rights reserved</div>
+    </section>
+</body>
+</html>
